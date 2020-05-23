@@ -1,0 +1,3 @@
+include 'practical-spring-stream-publisher', 'practical-spring-stream-listener'
+rootProject.name = 'practical-spring-stream'
+
