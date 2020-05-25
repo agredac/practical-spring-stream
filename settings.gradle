@@ -1,3 +1,4 @@
-include 'practical-spring-stream-publisher', 'practical-spring-stream-listener'
+include 'practical-spring-stream-publisher', 'practical-spring-stream-listener', 'practical-spring-stream-common'
 rootProject.name = 'practical-spring-stream'
+include 'practical-spring-stream-common'
 

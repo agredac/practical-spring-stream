@@ -15,6 +15,7 @@ configurations {
 }
 
 repositories {
+	mavenLocal()
 	mavenCentral()
 }
 
@@ -23,6 +24,8 @@ ext {
 }
 
 dependencies {
+
+	compile('com.example:practical-spring-stream-common:0.0.1-SNAPSHOT')
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.cloud:spring-cloud-stream'
 	implementation 'org.springframework.cloud:spring-cloud-starter-stream-kafka'
